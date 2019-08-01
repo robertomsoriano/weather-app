@@ -17,6 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "buildCont": "source ~/Desktop/Dev/do-ssl/bash-scripts/runInside.sh; runInside",
+    "updateBuild": "yarn build && yarn buildCont",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
